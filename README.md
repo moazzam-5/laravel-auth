@@ -64,3 +64,19 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## About Project
+
+database is musql 
+used cookie of user 
+save token & remove cokkie when logout 
+hashed password
+complete authentication. when user register system check if email already exist then error occured "email already exist"
+
+database : feedbacks table => new feedback add in this table
+show all feedbacks 
+
+made models : User => for user registration and login , feedbacks => for add new feedback and show all feedbacks.
+
+you just need to clone the project make db and set env file 
+run migration 
